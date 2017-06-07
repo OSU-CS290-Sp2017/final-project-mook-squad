@@ -1,0 +1,94 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #EF9545;
+}
+
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: black;
+	float: right;
+	padding-right: 10px;
+}
+
+.navitem {
+  display: inline-block;
+}
+.navlist {
+  margin: 0 0 0 20px;
+  padding: 12px;
+}
+header{
+    background-color: black;
+    font-size: 20px;
+}
+.navlink a{
+	padding-right:30px;
+	color:white;
+	text-decoration: none;
+}
+
+.navlink a:hover{
+	color: #EF9545;
+}
+
+.navbar-search {
+	line-height: 30px;
+}
+
+#navbar-search-input {
+	padding: 4px;
+	font-size: 16px;
+	background-color: white;
+	border: none;
+}
+
+#navbar-search-input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+#navbar-search-button {
+	maring-left: -5px;
+	font-size: 16px;
+	background: white;
+	border: none;
+	color: white:
+	cursor: pointer;
+}
+
+#navbar-search-button:hover {
+  color: #EF9545;
+}
+
+.projects-container{
+  margin: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project{
+  width: 500px;
+  height: 150;
+  margin: 2px;
+  padding:20px;
+  border: 1px solid #dadada;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.project-content{
+  margin-left: 10px;
+}
+
+.project-content p{
+  margin: 0;
+}
+
+.project:hover {
+  height: 165px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
