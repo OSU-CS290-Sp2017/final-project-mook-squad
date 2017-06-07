@@ -89,6 +89,16 @@ header{
 }
 
 .project:hover {
-  height: 165px;
+  height: 450px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.img-container{
+  padding: 5px;
+  align-items: center;
+}
+
+.photo-img{
+  max-height: 200px;
+  max-height: 300px;
 }
