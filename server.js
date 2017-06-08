@@ -9,6 +9,7 @@ var fs = require('fs');
 var finalHTML = fs.readFileSync('./index.html', 'utf8');
 var finalCSS = fs.readFileSync('./style.css', 'utf8');
 var finalJS = fs.readFileSync('./index.js', 'utf8');
+var aboutHTML = fs.readFileSync('./about.html', 'utf8');
 
 function requestAndResponse(req,res) {
         var userInput = req.url;
@@ -27,6 +28,10 @@ function requestAndResponse(req,res) {
                 res.write(finalJS);
 
         }
+	else if (userInput == '/about.html'){
+		res.statusCode = 200;
+		res.write(aboutHTML);
+	}
         res.end();
 
 }

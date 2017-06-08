@@ -11,15 +11,18 @@ a{
 
 .navitem {
   display: inline-block;
+
 }
 .navlist {
   margin: 0 0 0 20px;
   padding: 12px;
 }
+
 header{
     background-color: black;
     font-size: 20px;
 }
+
 .navlink a{
 	padding-right:30px;
 	color:white;
@@ -32,15 +35,6 @@ header{
 	float:right;
 	padding-right: 10px;
 }
-/*
-.navlink.contact{
-	border-style: solid;
-	border-width: 1.5px;
-	border-color: white;
-	border-radius: 3px;
-
-}
-*/
 
 .navbar-search {
 	line-height: 30px;
