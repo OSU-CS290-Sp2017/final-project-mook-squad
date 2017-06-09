@@ -7,31 +7,41 @@ body {
 
 a{
 	text-decoration: none;
+
 }
 
 .navitem {
   display: inline-block;
+
 }
+
 .navlist {
   margin: 0 0 0 20px;
   padding: 12px;
+
 }
 header{
-    background-color: black;
+    background-color: #000;
     font-size: 20px;
+   
 }
 .navlink a{
 	padding-right:30px;
 	color:white;
+
 }
 
 .navlink a:hover{
-	color: orange;
+	color: #eee;
+
 }
+
 .navbar{
+	background-color: #000;
 	float:right;
 	padding-right: 10px;
 }
+
 /*
 .navlink.contact{
 	border-style: solid;
@@ -69,4 +79,28 @@ header{
 
 #navbar-search-button:hover {
   color: orange;
+}
+
+.request-error {
+	margin-top: 75px;
+	text-align: center;
+
+}
+
+.request-error h1 {
+	margin: 10px 0;
+	font-size: 96px;
+	font-weight: 100;
+	color: white;
+	position: relative;
+
+}
+
+.request-error h3 {
+	margin: 10px 0;
+	font-size: 36px;
+	font-weight: 400;
+	color: white;
+	position: relative;
+
 }
