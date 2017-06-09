@@ -10,6 +10,7 @@ var finalHTML = fs.readFileSync('./index.html', 'utf8');
 var finalCSS = fs.readFileSync('./style.css', 'utf8');
 var finalJS = fs.readFileSync('./index.js', 'utf8');
 var aboutHTML = fs.readFileSync('./about.html', 'utf8');
+var errorHTML = fs.readFileSync('./404.html', 'utf8');
 
 function requestAndResponse(req,res) {
         var userInput = req.url;
@@ -31,6 +32,10 @@ function requestAndResponse(req,res) {
 	else if (userInput == '/about.html'){
 		res.statusCode = 200;
 		res.write(aboutHTML);
+	}
+	else {
+		res.statusCode = 404;
+		res.write(errorHTML);
 	}
         res.end();
 
