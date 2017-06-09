@@ -78,7 +78,9 @@ header{
   border-radius: 20px;
   background-color: #fff;
 }
-
+.project-name{
+  text-align: center;
+}
 .project-content{
   margin-left: 10px;
 }
@@ -88,13 +90,13 @@ header{
 }
 
 .project:hover {
-  height: 450px;
+  height: 425px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
 .img-container{
   padding: 5px;
-  align-items: center;
+/*align photo center */
 }
 
 .photo-img{
