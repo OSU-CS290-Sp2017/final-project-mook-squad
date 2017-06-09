@@ -3,6 +3,8 @@ body {
 	margin: 0;
 	overflow: hidden;
 	background-color: black;
+	font-family: 'Exo', sans-serif;
+
 }
 
 a{
@@ -47,6 +49,7 @@ header{
 #navbar-search-input:focus {
   outline: none;
   background-color: #fff;
+
 }
 
 #navbar-search-button {

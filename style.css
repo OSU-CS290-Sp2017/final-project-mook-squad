@@ -1,8 +1,10 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: 'Exo', sans-serif;
 	overflow: hidden;
 	background-color: black;
+
 
 }
 
@@ -24,7 +26,7 @@ a{
 header{
     background-color: #000;
     font-size: 20px;
-   
+
 }
 .navlink a{
 	padding-right:30px;

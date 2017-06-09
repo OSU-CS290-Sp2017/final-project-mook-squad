@@ -17,7 +17,7 @@ searchButton.addEventListener('click', function (){
           console.log("Found");
       }
       else {
-        tContainer.removeChild(e);
+        pContainer.removeChild(e);
       }
   }
 });
