@@ -1,7 +1,8 @@
 body{
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  margin-top: 0px;
+  overflow: scroll;
   font-family: 'Exo', sans-serif;
   background-color: #DFE2DB;
 }
@@ -15,7 +16,6 @@ a{
   background-color: black;
 	float: right;
 	padding-right: 10px;
-	margin-bottom: 0px;
 }
 
 .navitem {
