@@ -1,0 +1,108 @@
+/* Style inputs with type="text", select elements and textareas */
+
+a{
+	text-decoration: none;
+}
+
+.navitem 
+  display: inline-block;
+}
+.navlist {
+  margin: 0 0 0 20px;
+  padding: 12px;
+}
+header{
+    background-color: black;
+    font-size: 20px;
+}
+.navlink a{
+	padding-right:30px;
+	color:white;
+}
+
+.navlink a:hover{
+	color: orange;
+}
+.navbar{
+	float:right;
+	padding-right: 10px;
+}
+/*
+.navlink.contact{
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: white;
+	border-radius: 3px;
+
+}
+*/
+
+.navbar-search {
+	line-height: 30px;
+}
+
+#navbar-search-input {
+	padding: 4px;
+	font-size: 16px;
+	background-color: white;
+	border: none;
+}
+
+#navbar-search-input:focus {
+  outline: none;
+  background-color: #fff;
+}
+
+#navbar-search-button {
+	maring-left: -5px;
+	font-size: 16px;
+	background: white;
+	border: none;
+	color: white:
+	cursor: pointer;
+}
+
+#navbar-search-button:hover {
+  color: orange;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+body{
+	background-color: #EF9545
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #EF9545;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: ##EF9545;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;*/
+	padding-top:10px;
+}
