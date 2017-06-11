@@ -1,8 +1,10 @@
 body{
   padding: 0;
   margin: 0;
+  overflow: hidden;
   background-color:#EF9545;
   font-family: 'Exo', sans-serif;
+
 }
 a{
   text-decoration: none;
@@ -11,9 +13,10 @@ a{
 .navbar{
   width: 100%;
   background-color: black;
-	float: right;
-	padding-right: 10px;
-
+  float: right;
+  padding-right: 10px;
+  margin-bottom: 0px;
+	
 }
 .navitem {
   display: inline-block;
