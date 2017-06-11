@@ -34,7 +34,7 @@ function requestAndResponse(req,res) {
                 res.statusCode = 200;
                 res.write(blogHTML);
 
-        }        
+        }
         else if (userInput == '/style.css'){
                 res.statusCode = 200;
                 res.write(finalCSS);
