@@ -72,29 +72,18 @@ header{
 
 }
 
-<<<<<<< HEAD
 .about-title{
-  padding-left: 150px;
-  padding-top: 30px;
-  font-size: 40px;
-}
+  text-align: center;
+  color: white;
 
-.img-container{
-  padding-left: 150px;
 }
-
-.photo-img{
-  max-height: 200px;
-  max-height: 300px;
-}
-
 .about-content {
-  font-size: 30px;
-  padding-left: 150px;
-}
+  text-align: center;
+  color: white;
 
-.about-text {
-  padding-left: 150px;
 }
-=======
->>>>>>> fcc4162b79b0140c96b64b6748056ba2a1050fd0
+.about-text {
+  text-align: center;
+  color: white;
+
+}
