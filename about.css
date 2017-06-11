@@ -4,68 +4,72 @@ body{
   background-color:#EF9545;
   font-family: 'Exo', sans-serif;
 }
-
 a{
   text-decoration: none;
-}
 
+}
 .navbar{
   width: 100%;
   background-color: black;
 	float: right;
 	padding-right: 10px;
-}
 
+}
 .navitem {
   display: inline-block;
+
 }
 .navlist {
   margin: 0 0 0 20px;
   padding: 12px;
   float: right;
+
 }
 header{
     background-color: black;
     font-size: 20px;
+
 }
 .navlink a{
 	padding-right:30px;
 	color:white;
 	text-decoration: none;
-}
 
+}
 .navlink a:hover{
 	color: #EF9545;
-}
 
+}
 .navbar-search {
 	line-height: 30px;
-}
 
+}
 #navbar-search-input {
 	padding: 4px;
 	font-size: 16px;
 	background-color: white;
 	border: none;
-}
 
+}
 #navbar-search-input:focus {
   outline: none;
   background-color: #fff;
-}
 
+}
 #navbar-search-button {
 	margin-left: 5px;
 	font-size: 16px;
 	background: white;
 	border: none;
 	color: white:
-}
 
+}
 #navbar-search-button:hover {
   color: #EF9545;
+
 }
 
+<<<<<<< HEAD
 .about-title{
   padding-left: 150px;
   padding-top: 30px;
@@ -89,3 +93,5 @@ header{
 .about-text {
   padding-left: 150px;
 }
+=======
+>>>>>>> fcc4162b79b0140c96b64b6748056ba2a1050fd0

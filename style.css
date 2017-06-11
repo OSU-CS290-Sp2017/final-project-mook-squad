@@ -12,8 +12,8 @@ a{
 .navbar{
   width: 100%;
   background-color: black;
-	float: right;
-	padding-right: 10px;
+  float: right;
+  padding-right: 10px;
 }
 
 .navitem {
@@ -69,8 +69,18 @@ header{
 
 #navbar-search-button:hover {
   color: #EF9545;
+
 }
 
+.footer {
+	margin: 0 0 0 20px;
+  	padding: 12px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	color: white;
+
+}
 .request-error {
 	margin-top: 75px;
 	text-align: center;
@@ -97,3 +107,4 @@ header{
 	position: relative;
 
 }
+
