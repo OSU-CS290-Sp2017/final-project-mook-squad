@@ -65,3 +65,27 @@ header{
 #navbar-search-button:hover {
   color: #EF9545;
 }
+
+.about-title{
+  padding-left: 150px;
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+.img-container{
+  padding-left: 150px;
+}
+
+.photo-img{
+  max-height: 200px;
+  max-height: 300px;
+}
+
+.about-content {
+  font-size: 30px;
+  padding-left: 150px;
+}
+
+.about-text {
+  padding-left: 150px;
+}
