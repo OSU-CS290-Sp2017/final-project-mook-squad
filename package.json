@@ -1,0 +1,22 @@
+{
+  "name": "final-project-mook-squad",
+  "version": "1.0.0",
+  "description": "Final project CS290, Machine learning club website",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "NPM is running",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OSU-CS290-Sp2017/final-project-mook-squad.git"
+  },
+  "author": "David Jansen, Shanmukh Challa, Bharath Padmaraju, Meggie Kolasani",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/OSU-CS290-Sp2017/final-project-mook-squad/issues"
+  },
+  "homepage": "https://github.com/OSU-CS290-Sp2017/final-project-mook-squad#readme"
+}
