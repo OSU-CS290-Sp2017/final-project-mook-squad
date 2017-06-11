@@ -1,7 +1,7 @@
 body{
   padding: 0;
   margin: 0;
-  background-color: #EF9545;
+  background-color:#EF9545;
   font-family: 'Exo', sans-serif;
 }
 
@@ -10,6 +10,7 @@ a{
 }
 
 .navbar{
+  width: 100%;
   background-color: black;
 	float: right;
 	padding-right: 10px;
@@ -21,6 +22,7 @@ a{
 .navlist {
   margin: 0 0 0 20px;
   padding: 12px;
+  float: right;
 }
 header{
     background-color: black;
@@ -65,16 +67,22 @@ header{
 }
 
 .projects-container{
-  margin: 50px 10%;
+ margin: 50px 10%;
   display: flex;
   flex-wrap: wrap;
+}
+
+.project-title{
+  padding-left: 150px;
+  padding-top: 30px;
+  font-size: 40px;
 }
 
 .project{
   width: 500px;
   height: 150;
   margin: 2px;
-  padding:20px;
+  padding:10px;
   border: 1px solid #dadada;
   border-radius: 20px;
   background-color: #fff;
@@ -91,7 +99,7 @@ header{
 }
 
 .project:hover {
-  height: 425px;
+  height: 435px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
 }
 
