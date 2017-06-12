@@ -39,6 +39,7 @@ header{
 }
 
 
+
 .navlink a{
 	padding-right:30px;
 	color:white;
@@ -78,6 +79,7 @@ header{
 
 #navbar-search-button:hover {
     color: #EF9545;
+    font-size: 22px;
 }
 
 .Blog-container {
@@ -101,6 +103,14 @@ header{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+}
+
+.Blogg:hover {
+   padding-top:15px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-bottom: 25px;
+
 }
 
 .BlogText .BlogDate {
