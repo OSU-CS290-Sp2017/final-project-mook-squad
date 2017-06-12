@@ -7,16 +7,13 @@ body{
   background-color: #DFE2DB;
 }
 
-
-
-
 .navbar{
     width: 100%;
     background-color: black;
     float: right;
-	padding-right: 10px;
+    padding-right: 10px;
+    margin: 0 !important;
 }
-
 
 .navitem {
     display: inline-block;
@@ -86,6 +83,7 @@ header{
 .Blog-container {
     display: flex;
     flex-wrap: wrap;
+    top: 0;
 }
 
 .Blogg {
