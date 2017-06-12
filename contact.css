@@ -1,15 +1,30 @@
 /* Style inputs with type="text", select elements and textareas */
 
-a{
-	text-decoration: none;
+body{
+  padding: 0;
+  margin: 0;
+  background-color:#EF9545;
+  font-family: 'Exo', sans-serif;
 }
 
-.navitem 
+a{
+  text-decoration: none;
+}
+
+.navbar{
+  width: 100%;
+  background-color: black;
+	float: right;
+	padding-right: 10px;
+}
+
+.navitem {
   display: inline-block;
 }
 .navlist {
   margin: 0 0 0 20px;
   padding: 12px;
+  float: right;
 }
 header{
     background-color: black;
@@ -18,24 +33,12 @@ header{
 .navlink a{
 	padding-right:30px;
 	color:white;
+	text-decoration: none;
 }
 
 .navlink a:hover{
-	color: orange;
+	color: #EF9545;
 }
-.navbar{
-	float:right;
-	padding-right: 10px;
-}
-/*
-.navlink.contact{
-	border-style: solid;
-	border-width: 1.5px;
-	border-color: white;
-	border-radius: 3px;
-
-}
-*/
 
 .navbar-search {
 	line-height: 30px;
@@ -54,18 +57,17 @@ header{
 }
 
 #navbar-search-button {
-	maring-left: -5px;
+	margin-left: 5px;
 	font-size: 16px;
 	background: white;
 	border: none;
 	color: white:
-	cursor: pointer;
 }
 
 #navbar-search-button:hover {
-  color: orange;
-}
+  color: #EF9545;
 
+}
 
 input[type=text], select, textarea {
     width: 100%; /* Full width */
