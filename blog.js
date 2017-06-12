@@ -7,8 +7,8 @@ searchButton.addEventListener('click', function (){
   var blogElements = document.getElementsByClassName('Blogg');
   var bContainer = document.getElementsByClassName('Blog-container')[0];
 
-  for (i = projectElements.length - 1; i >= 0; i--) {
-      var e = projectElements.item(i);
+  for (i = blogElements.length - 1; i >= 0; i--) {
+      var e = blogElements.item(i);
       var bT = e.getElementsByClassName('BlogTitle')[0];
       var bD = e.getElementsByClassName('BlogDate')[0];
       var bC = e.getElementsByClassName('BlogContent')[0];
@@ -19,7 +19,7 @@ searchButton.addEventListener('click', function (){
           console.log("Found");
       }
       else {
-        pContainer.removeChild(e);
+        bContainer.removeChild(e);
       }
   }
 });
