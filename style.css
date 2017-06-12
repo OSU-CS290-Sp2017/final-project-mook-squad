@@ -12,21 +12,29 @@ a{
 .navbar{
   width: 100%;
   background-color: black;
-	float: right;
-	padding-right: 10px;
-}
+  float: right;
+  margin-top: 0;
+  padding-top: 0;
 
+}
 .navitem {
   display: inline-block;
+
 }
+
 .navlist {
-  margin: 0 0 0 20px;
+  margin: 0;
   padding: 12px;
   float: right;
+
 }
+
 header{
     background-color: black;
     font-size: 20px;
+    top: 0;
+    width: 100%;
+    position: fixed;
 }
 
 .page-name{
@@ -55,10 +63,10 @@ header{
 }
 
 #navbar-search-input:focus {
-  outline: none;
-  background-color: #fff;
-}
+	outline: none;
+  	background-color: #fff;
 
+}
 #navbar-search-button {
 	margin-left: 5px;
 	font-size: 16px;
@@ -69,6 +77,18 @@ header{
 
 #navbar-search-button:hover {
   color: #EF9545;
+
+}
+
+.footer {
+	position: absolute;
+  	right: 0;
+	left: 0;
+	bottom: 0;
+	padding: 1rem;
+  	background-color: black;
+  	color: white;
+  	text-align: center;
 }
 
 .request-error {
@@ -79,7 +99,6 @@ header{
         overflow: hidden;
 
 }
-
 .request-error h1 {
 	margin: 10px 0;
 	font-size: 96px;
@@ -88,7 +107,6 @@ header{
 	position: relative;
 
 }
-
 .request-error h3 {
 	margin: 10px 0;
 	font-size: 36px;
@@ -97,3 +115,4 @@ header{
 	position: relative;
 
 }
+

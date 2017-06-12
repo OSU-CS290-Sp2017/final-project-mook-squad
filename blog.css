@@ -1,81 +1,97 @@
 body{
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  overflow: scroll;
   font-family: 'Exo', sans-serif;
   background-color: #DFE2DB;
 }
 
-a{
-  text-decoration: none;
-}
+
+
 
 .navbar{
-  width: 100%;
-  background-color: black;
-	float: right;
+    width: 100%;
+    background-color: black;
+    float: right;
 	padding-right: 10px;
 }
 
+
 .navitem {
-  display: inline-block;
+    display: inline-block;
 }
+
+
+.navitem a{
+    font-family:Impact, Charcoal, sans-serif;
+
+}
+
+
 .navlist {
-  margin: 0 0 0 20px;
-  padding: 12px;
-  float: right;
+    margin: 0 0 0 20px;
+    padding: 12px;
+    float: right;
 }
+
+
 header{
     background-color: black;
     font-size: 20px;
 }
+
+
 .navlink a{
 	padding-right:30px;
 	color:white;
 	text-decoration: none;
 }
 
+
 .navlink a:hover{
 	color: #EF9545;
 }
 
-.navbar-search {
-	line-height: 30px;
-}
+
+
 
 #navbar-search-input {
+    border-radius: 5px;
 	padding: 4px;
+	margin-right: 0px;
 	font-size: 16px;
 	background-color: white;
 	border: none;
 }
 
 #navbar-search-input:focus {
-  outline: none;
-  background-color: #fff;
+    outline: none;
+    background-color: #fff;
 }
 
+
 #navbar-search-button {
-	margin-left: 5px;
-	font-size: 16px;
+    border-radius: 5px;
+	font-size: 20px;
 	background: white;
 	border: none;
 	color: white:
 }
 
 #navbar-search-button:hover {
-  color: #EF9545;
+    color: #EF9545;
 }
 
 .Blog-container {
-  width: 98%;
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .Blogg {
-    border: 10px solid;
-    border-color:#DFE2DB;
+    box-shadow: 10px 10px 5px #888888;
+    border: 2px solid;
+    border-color:black;
     border-radius: 20px;
     width: 80%;
     margin: auto;
@@ -97,15 +113,15 @@ header{
 }
 
 p.BlogTitle{
-font-family:Impact, Charcoal, sans-serif;
+    font-family:Impact, Charcoal, sans-serif;
 }
 
 p.BlogContent{
-font-family:"Courier New", Courier, monospace;
+    font-family:"Courier New", Courier, monospace;
 }
 
 p.BlogDate{
-font-family:Impact, Charcoal, sans-serif;
+    font-family:Impact, Charcoal, sans-serif;
 }
 
 
