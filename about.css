@@ -71,6 +71,16 @@ header{
   color: #EF9545;
 
 }
+.footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        padding: 1rem;
+        background-color: black;
+        color: white;
+        text-align: center;
+}
 
 .about-title{
   text-align: center;
