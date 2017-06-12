@@ -81,7 +81,7 @@ header{
 .project{
   width: 500px;
   height: 150;
-  margin: 2px;
+  margin: auto;
   padding:10px;
   border: 1px solid #dadada;
   border-radius: 20px;
