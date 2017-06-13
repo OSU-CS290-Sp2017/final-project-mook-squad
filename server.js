@@ -28,6 +28,24 @@ app.get('/Blog.html', function(req, res){
   res.render('blogPage', templateArgs);
 });
 
+app.get('/Blog/:index', function(req, res){
+  console.log(req.params);
+  var idx = req.params.index;
+  var blog = blogData[idx];
+
+  if(blog){
+    var templateArgs = {
+      bloggy: [blog],
+    };
+    res.render('blogPage', templateArgs);
+  }
+
+  else
+      res.status(404).render('404Page');
+
+});
+
+
 app.get('*', function (req, res) {
   res.status(404).render('404Page');
 });
