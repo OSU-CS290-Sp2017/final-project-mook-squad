@@ -207,7 +207,7 @@ p.BlogDate{
   border: none;
   border-radius: 30px;
   font-size: 36px;
-  background-color: #ff1010;
+  background-color: black;
   color: #fff;
   cursor: pointer;
   box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
@@ -221,7 +221,7 @@ p.BlogDate{
   width: 66px;
   border-radius: 33px;
   font-size: 40px;
-  background-color: #319df6;
+  background-color: black;
 }
 
 #create-blog-button:focus {
@@ -334,10 +334,10 @@ p.BlogDate{
 }
 
 .modal-footer .modal-accept-button {
-  background-color: #319df6;
+  background-color: #F9861F;
   color: #fff;
 }
 
 .modal-footer .modal-accept-button:hover {
-  background-color: #087dde;
+  background-color: #EF9545;
 }
