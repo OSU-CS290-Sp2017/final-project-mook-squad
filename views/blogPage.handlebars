@@ -21,3 +21,37 @@
   {{/each}}
 
 </main>
+
+<button type="button" id="create-blog-button"><i class="fa fa-bullhorn"></i></button>
+
+<div id="modal-backdrop" class="hidden"></div>
+<div id="create-blog-modal" class="hidden">
+  <div class="modal-dialog">
+
+    <div class="modal-header">
+      <h3>Write A Blog Post</h3>
+      <button type="button" class="modal-close-button">&times;</button>
+    </div>
+
+    <div class="modal-body">
+      <div class="blog-input-element">
+        <label for="blog-title-input">Title</label>
+        <textarea id="blog-title-input"></textarea>
+      </div>
+      <div class="blog-input-element">
+        <label for="blog-date-input">Date</label>
+        <input type="text" id="blog-date-input">
+      </div>
+      <div class="blog-input-element">
+        <label for="blog-content-input">Content</label>
+        <input type="text" id="blog-content-input">
+      </div>
+    </div>
+
+    <div class="modal-footer">
+      <button type="button" class="modal-cancel-button">Cancel</button>
+      <button type="button" class="modal-accept-button">Create Post</button>
+    </div>
+
+  </div>
+</div>
