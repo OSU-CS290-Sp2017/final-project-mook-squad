@@ -89,7 +89,7 @@ acceptButton.addEventListener('click', function(){
 });
 
 function storeBlogPost(userTitle, userDate, userContent, callback){
-   var postURL = "/Blog" + "/:index" + "/addPost";
+   var postURL = "/Blog" + "/addPost";
     var postRequest = new XMLHttpRequest();
     postRequest.open('POST', postURL);
     postRequest.setRequestHeader('Content-Type', 'application/json');

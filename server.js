@@ -48,9 +48,8 @@ app.get('/Blog/:index', function(req, res){
 
 });
 
-app.post('/Blog/:index/addPost', function (req,res,next){
-  var blog = blogData[req.params.index];
-
+app.post('/Blog/addPost', function (req,res,next){
+  var blog = blogData;
   if(blog){
 
     if(req.body) {
