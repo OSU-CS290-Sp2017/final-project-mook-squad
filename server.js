@@ -5,6 +5,7 @@ var path = require('path');
 var fs = require('fs');
 var express = require('express');
 var exphbs = require('express-handlebars');
+var bodyParser = require('body-parser');
 
 var blogData = require('./blog');
 
@@ -17,6 +18,8 @@ var blogPage = fs.readFileSync('./views/blogPage.handlebars', 'utf8');
 
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
+
+app.use(bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -42,6 +45,38 @@ app.get('/Blog/:index', function(req, res){
 
   else
       res.status(404).render('404Page');
+
+});
+
+app.post('/Blog/:index/addPost', function (req,res,next){
+  var blog = blogData[req.params.index];
+
+  if(blog){
+
+    if(req.body) {
+
+      var posty = {
+        Title: req.body.Title,
+        Datee: req.body.Datee,
+        Content: req.body.Content
+      };
+
+      blog = blog || [];
+      blog.push(posty);
+
+      fs.writeFile('blog.json', JSON.stringify(blogData), function(err){
+        if(err){
+          res.status(500).send("Unable to save post to \"database\".");
+        }
+        else{
+          res.status(200).send();
+        }
+      });
+
+    } else {
+      next();
+    }
+}
 
 });
 

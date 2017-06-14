@@ -70,7 +70,14 @@ acceptButton.addEventListener('click', function(){
   }
   else{
 
-    createBlog(userTitle, userDate, userContent);
+    storeBlogPost(userTitle, userDate, userContent, function(err){
+      if(err){
+        alert("got this error:\n\n" + err);
+      }
+      else{
+            createBlog(userTitle, userDate, userContent);
+      }
+    });
 
     for(var k=0; k<hiddenStuff.length; k+=1){
       hiddenStuff[k].style.display = 'none';
@@ -80,6 +87,29 @@ acceptButton.addEventListener('click', function(){
     document.getElementById('blog-content-input').value = "";
   }
 });
+
+function storeBlogPost(userTitle, userDate, userContent, callback){
+  /* var postURL = "/Blog" + index?? + "/addPost";
+    var postRequest = new XMLHHttpRequest();
+    postRequest.open('POST', postURL);
+    postRequest.setRequestHeader('Content-Type', 'application/json');
+
+    postRequest.addEventListener('load', function(event)){
+    var error;
+    if(event.target.status !== 200){
+      error = event.target.response;
+    }
+  callback(error);
+});
+
+var blogBody = {
+    Title: userTitle,
+    Datee: userDate,
+    Content: userContent
+}
+    postRequest.send(JSON.stringigy(blogBody));
+
+}  */
 
 var searchButton = document.getElementById('navbar-search-button');
 
