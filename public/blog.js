@@ -89,12 +89,12 @@ acceptButton.addEventListener('click', function(){
 });
 
 function storeBlogPost(userTitle, userDate, userContent, callback){
-  /* var postURL = "/Blog" + index?? + "/addPost";
-    var postRequest = new XMLHHttpRequest();
+   var postURL = "/Blog" + "/:index" + "/addPost";
+    var postRequest = new XMLHttpRequest();
     postRequest.open('POST', postURL);
     postRequest.setRequestHeader('Content-Type', 'application/json');
 
-    postRequest.addEventListener('load', function(event)){
+    postRequest.addEventListener('load', function(event){
     var error;
     if(event.target.status !== 200){
       error = event.target.response;
@@ -107,9 +107,9 @@ var blogBody = {
     Datee: userDate,
     Content: userContent
 }
-    postRequest.send(JSON.stringigy(blogBody));
+    postRequest.send(JSON.stringify(blogBody));
 
-}  */
+}
 
 var searchButton = document.getElementById('navbar-search-button');
 
