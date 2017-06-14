@@ -6,4 +6,4 @@ Things we still need to do:
   1) Update search bars
   2) Update footer
   3) Join Us modal
-  4) Database stuff (interact with client-side)
+
