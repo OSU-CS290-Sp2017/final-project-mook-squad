@@ -71,15 +71,17 @@ header{
   color: #EF9545;
 
 }
+
 .footer {
-        position: absolute;
+        position: fixed;
         right: 0;
-        bottom: 0;
         left: 0;
-        padding: 1rem;
+        bottom: 0;
         background-color: black;
         color: white;
         text-align: center;
+        height: 50px auto;
+
 }
 
 .about-title{

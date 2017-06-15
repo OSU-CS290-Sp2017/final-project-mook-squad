@@ -42,19 +42,6 @@ header{
 	line-height: 30px;
 }
 
-.footer: {
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        padding-bottom: 50px;
-        background-color: black;
-        color: white;
-        text-align: center;
-        height: 50px;
-
-}
-
 #navbar-search-input {
 	padding: 4px;
 	font-size: 16px;
@@ -65,6 +52,18 @@ header{
 #navbar-search-input:focus {
   outline: none;
   background-color: #fff;
+}
+
+.footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: auto;
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 50px auto;
+
 }
 
 #navbar-search-button {

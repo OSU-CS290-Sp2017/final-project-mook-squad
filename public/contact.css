@@ -44,6 +44,18 @@ header{
 	line-height: 30px;
 }
 
+.footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: auto;
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 50px auto;
+
+}
+
 #navbar-search-input {
 	padding: 4px;
 	font-size: 16px;
