@@ -10,8 +10,9 @@ a{
 }
 
 .navbar{
-  width: 100%;
-  background-color: black;
+  	position: fixed;
+	width: 100%;
+  	background-color: black;
 	float: right;
 	padding-right: 10px;
 }
