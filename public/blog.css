@@ -161,3 +161,16 @@ p.BlogDate{
     width: 80%;
     text-align: center;
 }
+
+
+.footer {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: auto;
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 50px auto;
+
+}

@@ -94,15 +94,17 @@ header{
 
 }
 .footer {
-	position: absolute;
-  	right: 0;
-	left: 0;
-	bottom: 0;
-  	background-color: black;
-  	color: white;
-  	text-align: center;
-	height: 50px auto;
-
+      height:24px; // Replace with the height your footer should be
+         width: 100%; // Don't change
+         background-image: none;
+         background-repeat: repeat;
+         background-attachment: scroll;
+         background-position: 0% 0%;
+         position: fixed;
+         bottom: 60px;
+         left: 47%;
+         color: white;
+         text-align: center;
 }
 
 #add-info-button {
@@ -478,4 +480,3 @@ p.BlogDate{
 .modal-footer .modal-accept-button:hover {
   background-color: #EF9545;
 }
-
